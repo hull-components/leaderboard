@@ -1,4 +1,4 @@
-Hull.component({
+Hull.component('leaderboard', {
   templates: ['leaderboard'],
   requiredOptions: ['id', 'board'],
   datasources: {
