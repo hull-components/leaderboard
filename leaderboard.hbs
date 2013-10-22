@@ -1,0 +1,17 @@
+<ul class="media-list">
+  {{#leaders}}
+    <li class="media">
+      <div class="pull-left">
+        <img class="media-object img-rounded" src="{{member.picture}}" alt="{{member.name}}" width="50" height="50">
+      </div>
+      <div class="media-body">
+        <h5 class="media-heading">
+           {{rank}} • {{member.name}}
+        </h5>
+        <h3 class="muted">
+          score: {{score}}
+        </h3>
+      </div>
+    </li>
+  {{/leaders}}
+</ul>
